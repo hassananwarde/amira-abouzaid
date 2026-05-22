@@ -103,7 +103,12 @@ export function HeroSection() {
                 {/* Center content */}
                 <div className="text-center z-10">
                   <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-white text-5xl md:text-6xl font-bold shadow-2xl shadow-primary/30">
-                    A
+                    {/* Image */}
+                    <img
+                      src="/images/amira.png"
+                      alt={personal.name}
+                      className="relative w-full h-full object-cover rounded-full border-4 border-white/20 shadow-2xl"
+                    />
                   </div>
                   <p className="mt-4 text-lg font-semibold text-foreground">{personal.name.split(" ")[0]} {personal.name.split(" ")[1]}</p>
                   <p className="text-sm text-muted-foreground">{personal.title}</p>
