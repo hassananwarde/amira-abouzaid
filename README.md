@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amira Abouzaid Portfolio
+
+A modern, premium, responsive personal portfolio website for Amira Abouzaid — an educational technology leader and STEM/ICT consultant.
+
+## Tech Stack
+
+- **Next.js 15** with App Router
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** for animations
+- **Shadcn/UI** components
+- **Lucide React** icons
+
+## Features
+
+- ✅ Fully responsive design (mobile-first)
+- ✅ Dark/light mode toggle
+- ✅ Smooth scroll animations with Framer Motion
+- ✅ Animated counters and progress bars
+- ✅ Glassmorphism design elements
+- ✅ Floating gradient blobs background
+- ✅ Interactive experience timeline
+- ✅ WhatsApp-integrated contact form (no email)
+- ✅ Floating WhatsApp button
+- ✅ Scroll progress indicator
+- ✅ SEO optimized with OpenGraph metadata
+- ✅ All content centralized in `src/data/siteData.ts`
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+ ├── app/              # Next.js app router pages
+ ├── components/
+ │    ├── sections/    # Page sections (Hero, About, Services, etc.)
+ │    ├── ui/          # Reusable UI components
+ │    ├── animations/  # Animation components
+ │    └── layout/      # Layout components (Navbar, Footer, etc.)
+ ├── data/
+ │    └── siteData.ts  # Centralized content data
+ ├── lib/
+ │    ├── utils.ts     # Utility functions
+ │    └── icons.ts     # Icon mapping
+ ├── styles/
+ │    └── globals.css  # Global styles & Tailwind
+ └── types/
+      └── index.ts     # TypeScript type definitions
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Content Management
 
-## Learn More
+All website content is centralized in `src/data/siteData.ts`. Update this file to change:
+- Personal information
+- Hero section content
+- Services list
+- Experience timeline
+- Achievements
+- Skills
+- Certifications
+- Testimonials
+- Contact details
+- SEO metadata
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **WhatsApp**: +201060211650
+- **Email**: mrs.amira.lab@gmail.com
+- **LinkedIn**: linkedin.com/in/amira-abouzaid-348b1820b
+- **Location**: Sixth of October City, Egypt
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Built with ❤️ for Amira Abouzaid
