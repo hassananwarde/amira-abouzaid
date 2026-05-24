@@ -108,10 +108,10 @@ export function AboutSection() {
             >
               <h4 className="font-semibold mb-3">Professional Philosophy</h4>
               <p className="text-muted-foreground leading-relaxed italic">
-                &quot;Education is not just about imparting knowledge—it's about igniting curiosity, 
-                fostering innovation, and preparing students for a future we can only imagine. 
-                Through STEM, AI, and technology, we empower the next generation to become 
-                creators, not just consumers, of technology.&quot;
+                {"Education is not just about imparting knowledge—it's about igniting curiosity,
+  fostering innovation, and preparing students for a future we can only imagine.
+  Through STEM, AI, and technology, we empower the next generation to become
+  creators, not just consumers, of technology."}
               </p>
               <div className="mt-4 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-white font-bold">
